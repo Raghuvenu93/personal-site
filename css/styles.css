@@ -1,0 +1,149 @@
+body {
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+}
+
+h1 {
+  margin: 50px auto 0 auto;
+  font-family: 'Dancing Script', cursive;
+  font-size: 5.625rem;
+  color: #66BFBF;
+}
+
+h2{
+  font-family: 'Montserrat', sans-serif;
+    font-size: 2.5rem;
+      color: #66BFBF;
+      font-weight: bold;
+}
+
+h3{
+  font-family: 'Montserrat', sans-serif;
+  color: #11999E;
+}
+
+.top-container {
+  background-color: #E4FBFF;
+  position:relative;
+  padding-top: 100px
+}
+
+.bottom-container {
+background-color: #66BFBF;
+padding: 50px;
+}
+
+.bottom-cloud{
+  position: absolute;
+}
+
+.top-cloud{
+  position: absolute;
+  right: 300px;
+  top:50px;
+
+}
+.underline{
+  text-decoration: underline;
+  bottom:300px;
+  left:300px;
+}
+
+a{
+color: #11999E;
+
+}
+
+.skill-row{
+
+  width: 50%;
+margin: 100px auto ;
+text-align: left;
+line-height: 2;
+}
+
+.code-skill-image{
+margin-right: 30px;
+margin-bottom: 30px;
+  width: 25%;
+  float: left;
+}
+
+.dance-skill-image{
+margin-left: 30px;
+margin-bottom: 30px;
+  width: 25%;
+  float: right;
+}
+
+hr{
+
+  width: 50px;
+  border-style: dotted none none none;
+  border-width: 5px;
+  border-color: lightgrey;
+}
+
+.profile{
+
+  margin: 50px auto;
+  width: 25%;
+  line-height: 2;
+}
+
+.profile-desc{
+  color:  #40514E;
+}
+
+.skills{
+ margin-top: 50px;
+}
+
+.contact-me{
+margin: 50px auto;
+width: 25%;
+
+}
+
+.btn {
+  background-color: #66BFBF;
+  margin: 25px auto;
+  border-radius: 10px;
+  color: white;
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.btn:hover {
+  background-color: #7be8e8;
+  margin: 25px auto;
+  border-radius: 10px;
+  color: white;
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.footer-link{
+text-decoration: none;
+margin: 20px;
+font-weight: bold;
+  color: #11999E;
+}
+
+.footer-link:hover{
+text-decoration: none;
+margin: 20px;
+font-weight: bold;
+  color: white;
+}
+.copyrights{
+
+  color: white;
+  margin-top: 25px;
+  font-size: 0.75rem;
+}
